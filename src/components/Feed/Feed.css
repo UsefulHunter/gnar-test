@@ -1,0 +1,36 @@
+.Feed {
+  background-image: linear-gradient(
+    36.31deg,
+    #fafaff 12.05%,
+    rgba(255, 255, 255, 0) 1045.02%
+  );
+  text-align: start;
+  font-family: Brown;
+  font-weight: bold;
+  font-size: 20px;
+  width: 316px;
+  height: 731px;
+  border-radius: 5px;
+}
+
+.Title {
+  margin-left: 36px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+li {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 14px;
+}
+
+a {
+  color: black;
+}

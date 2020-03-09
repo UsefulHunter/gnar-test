@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './Header.css';
+import "./Header.css";
 
-const Header = ({}) => (
+const Header = () => (
   <header>
     <div>
       <a href="/">
