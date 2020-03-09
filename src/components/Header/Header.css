@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  height: 129px;
+}
+
+svg {
+  margin: 50px 0px 25px 55px;
+}
