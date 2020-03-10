@@ -1,15 +1,15 @@
-header {
+.header__header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-a {
+.header__a {
   color: white;
   text-decoration: none;
   height: 129px;
 }
 
-svg {
+.header__svg {
   margin: 50px 0px 25px 55px;
 }

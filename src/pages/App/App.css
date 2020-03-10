@@ -6,8 +6,13 @@
     rgba(84, 82, 246, 0) 241.45%
   );
   background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
 .content {
   margin: 25px 50px 25px 50px;
+  padding-bottom: inherit;
+  display: flex;
+  justify-content: space-between;
 }

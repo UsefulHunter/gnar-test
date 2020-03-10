@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import "./Header.css";
+import './Header.css';
 
 const Header = () => (
-  <header>
+  <header className="header__header">
     <div>
-      <a href="/">
+      <a className="header__a" href="/">
         <svg
+          className="header__svg"
           width="282"
           height="44"
           viewBox="0 0 282 44"
