@@ -13,8 +13,36 @@
 
 .list__title {
   padding-left: 36px;
-  padding-top: 25px;
+  padding-top: 20px;
+  margin-top: 0px;
   align-items: center;
   font-size: 30px;
   font-weight: bold;
+}
+.list__list {
+  list-style-type: none;
+}
+
+.list__scroller {
+  margin: 0 auto;
+  height: 630px;
+  overflow: auto;
+}
+
+.list__hr {
+  border: 0.5px solid #d0dae8;
+}
+
+.list__item-single {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.list__item-title {
+  font-size: 20px;
+}
+
+.list__text {
+  font-size: 13px;
 }

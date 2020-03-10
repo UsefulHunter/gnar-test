@@ -1,4 +1,4 @@
-.App {
+.app__main {
   text-align: center;
   background-image: linear-gradient(
     347.71deg,
@@ -10,7 +10,7 @@
   width: 100vw;
 }
 
-.content {
+.app__content {
   margin: 25px 50px 25px 50px;
   padding-bottom: inherit;
   display: flex;
