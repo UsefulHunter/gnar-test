@@ -21,6 +21,7 @@
 }
 .list__list {
   list-style-type: none;
+  list-style: inside;
 }
 
 .list__scroller {
@@ -36,7 +37,14 @@
 .list__item-single {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-align: start;
+  height: 100px;
+  border-bottom: 1px solid #d0dae8;
+}
+
+.list__img {
+  border-radius: 5px;
 }
 
 .list__item-title {
@@ -44,5 +52,10 @@
 }
 
 .list__text {
+  text-align: start;
   font-size: 13px;
+}
+
+.list__text-temperament {
+  font-size: 10px;
 }
