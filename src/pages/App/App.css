@@ -14,5 +14,5 @@
   margin: 25px 50px 25px 50px;
   padding-bottom: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
