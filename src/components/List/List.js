@@ -52,6 +52,8 @@ const List = () => {
 
       <ul className="list__list list__scroller">
         {completeCatList.map(listItem => {
+          let tempArray = listItem.temperament.split(" ");
+          console.log(tempArray);
           return (
             <li className="list__item-single" key={listItem.id}>
               <img
@@ -69,8 +71,8 @@ const List = () => {
                 <span className="list__text">
                   <strong>Origin:</strong> {listItem.origin}
                 </span>
-                <span className="list__text-temperament">
-                  <strong>Temperament:</strong> {listItem.temperament}
+                <span className="list__text">
+                  <strong>Temperament:</strong> {tempArray[0]} {tempArray[1]}
                 </span>
               </section>
             </li>

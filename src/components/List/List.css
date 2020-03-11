@@ -50,7 +50,6 @@ ul::-webkit-scrollbar-thumb {
 .list__item-single {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   text-align: start;
   height: 100px;
   border-bottom: 1px solid #d0dae8;
@@ -58,6 +57,7 @@ ul::-webkit-scrollbar-thumb {
 
 .list__item-content {
   display: flex;
+  position: relative;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -69,13 +69,10 @@ ul::-webkit-scrollbar-thumb {
 
 .list__item-title {
   font-size: 20px;
+  padding: 8px;
+  margin-left: 15px;
 }
 
 .list__text {
-  text-align: start;
   font-size: 13px;
-}
-
-.list__text-temperament {
-  font-size: 10px;
 }

@@ -1,7 +1,9 @@
 .header__header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .header__a {
@@ -11,4 +13,34 @@
 
 .header__svg {
   margin: 50px 0px 25px 55px;
+}
+
+.header__options {
+  display: flex;
+  align-items: center;
+}
+
+.header__interactable {
+  background: #f3f3ff;
+  border-radius: 5px;
+  width: 316px;
+  height: 44px;
+  border: none;
+  margin-left: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_interactable:hover {
+  opacity: 1;
+}
+
+.header__icon {
+  width: 22px;
+  height: 22px;
+  color: #5452f6;
+  margin-right: 10px;
 }
