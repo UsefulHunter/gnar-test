@@ -61,16 +61,18 @@ const List = () => {
                 height="82.47px"
                 alt={`Name: ${listItem.catName}`}
               />
-              <h3 className="list__item-title">{listItem.catName}</h3>
-              <span className="list__text">
-                <strong>Breed:</strong> {listItem.name}
-              </span>
-              <span className="list__text">
-                <strong>Origin:</strong> {listItem.origin}
-              </span>
-              <span className="list__text-temperament">
-                <strong>Temperament:</strong> {listItem.temperament}
-              </span>
+              <section className="list__item-content">
+                <h3 className="list__item-title">{listItem.catName}</h3>
+                <span className="list__text">
+                  <strong>Breed:</strong> {listItem.name}
+                </span>
+                <span className="list__text">
+                  <strong>Origin:</strong> {listItem.origin}
+                </span>
+                <span className="list__text-temperament">
+                  <strong>Temperament:</strong> {listItem.temperament}
+                </span>
+              </section>
             </li>
           );
         })}
