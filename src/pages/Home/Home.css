@@ -1,0 +1,8 @@
+.home__content {
+  display: flex;
+}
+
+.home__feed {
+  margin-top: -16px;
+  margin-right: 25px;
+}

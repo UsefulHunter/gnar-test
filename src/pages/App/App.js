@@ -1,19 +1,18 @@
-import React from "react";
-import "./App.css";
-import Header from "../../components/Header/Header";
-import Feed from "../../components/Feed/Feed";
-import List from "../../components/List/List";
+import React, { Component } from 'react';
+import './App.css';
+import Header from '../../components/Header/Header';
 
-const App = () => {
-  return (
-    <div className="app__main">
-      <Header />
-      <section className="app__content">
-        <Feed />
-        <List />
-      </section>
-    </div>
-  );
-};
+import { withRouter } from 'react-router-dom';
 
-export default App;
+class App extends Component {
+  render() {
+    return (
+      <div className="app__main">
+        <Header />
+        <section className="app__content">{this.props.children}</section>
+      </div>
+    );
+  }
+}
+
+export default withRouter(App);
