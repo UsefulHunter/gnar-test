@@ -5,9 +5,11 @@
     #5452f6 12.93%,
     rgba(84, 82, 246, 0) 241.45%
   );
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
-  width: 100vw;
 }
 
 .app__content {
@@ -15,4 +17,8 @@
   padding-bottom: inherit;
   display: flex;
   justify-content: space-evenly;
+}
+
+@-ms-viewport {
+  width: device-width;
 }

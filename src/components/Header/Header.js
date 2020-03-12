@@ -1,11 +1,11 @@
-import React from 'react';
-import { useHistory } from 'react-router-dom';
-import './Header.css';
+import React from "react";
+import { useHistory } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   let history = useHistory();
 
-  const handleClick = () => history.push('/Form');
+  const handleClick = () => history.push("/Form");
 
   return (
     <header className="header__header">
@@ -31,7 +31,7 @@ const Header = () => {
         </svg>
       </a>
       <section className="header__options">
-        <i class="material-icons header__icon-search">search</i>
+        <i className="material-icons header__icon-search">search</i>
         <input
           className="header__interactable"
           type="text"
@@ -39,7 +39,7 @@ const Header = () => {
           placeholder="Search Cats"
         />
         <button className="header__interactable" onClick={handleClick}>
-          <i class="material-icons header__icon">add_circle_outline</i>
+          <i className="material-icons header__icon">add_circle_outline</i>
           <span>ADD NEW CAT</span>
         </button>
       </section>
