@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .header__a {
@@ -38,9 +38,16 @@
   opacity: 1;
 }
 
-.header__icon {
+.header__icon,
+.header__icon-search {
   width: 22px;
   height: 22px;
   color: #5452f6;
   margin-right: 10px;
+  cursor: pointer;
+}
+
+.header__icon-search {
+  margin-right: -10%;
+  position: relative;
 }

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./Header.css";
+import './Header.css';
 
 const Header = () => (
   <header className="header__header">
@@ -26,8 +26,10 @@ const Header = () => (
       </svg>
     </a>
     <section className="header__options">
+      <i class="material-icons header__icon-search">search</i>
       <input
         className="header__interactable"
+        type="text"
         name="search"
         placeholder="Search Cats"
       />
