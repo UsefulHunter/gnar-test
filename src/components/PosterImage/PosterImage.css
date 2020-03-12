@@ -5,3 +5,11 @@
   width: 658px;
   height: 731px;
 }
+
+.posterImage__title {
+  font-family: Bennet Display;
+  font-weight: bold;
+  font-size: 78px;
+  text-align: left;
+  color: #f3f3ff;
+}
