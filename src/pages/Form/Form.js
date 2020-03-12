@@ -1,12 +1,12 @@
 import React from 'react';
 import './Form.css';
 
-import Header from '../../components/Header/Header';
+import PosterImage from '../../components/PosterImage/PosterImage';
 
 const Form = () => {
   return (
     <div className="form__main">
-      <Header />
+      <PosterImage />
     </div>
   );
 };
