@@ -16,7 +16,7 @@
   margin: 25px 50px 25px 50px;
   padding-bottom: inherit;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 @-ms-viewport {

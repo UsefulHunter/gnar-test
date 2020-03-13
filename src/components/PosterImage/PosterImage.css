@@ -2,9 +2,10 @@
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  max-width: 658px;
-  max-height: 731px;
+  width: 658px;
+  height: 731px;
   overflow: hidden;
+  margin-right: 12.5px;
 }
 
 .posterImage__title {
@@ -15,10 +16,13 @@
   text-align: left;
   color: #f3f3ff;
   z-index: 100;
+  margin-top: 10px;
+  margin-left: 29px;
 }
 
 .posterImage_purple-filter {
   background: rgba(3, 0, 250, 0.4);
+  border-radius: 5px;
   position: absolute;
   width: 658px;
   height: 731px;
@@ -29,4 +33,9 @@
 .posterImage__image {
   z-index: 3;
   position: absolute;
+  border-radius: 5px;
+  width: 658px;
+  height: 731px;
+  object-fit: cover;
+  overflow: hidden;
 }

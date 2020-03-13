@@ -32,15 +32,15 @@
   border: none;
 }
 
-table::-webkit-scrollbar {
+.list__scroller::-webkit-scrollbar {
   width: 0.25rem;
 }
 
-table::-webkit-scrollbar-track {
-  background: #fafaff;
+.list__scroller::-webkit-scrollbar-track {
+  display: none;
 }
 
-table::-webkit-scrollbar-thumb {
+.list__scroller::-webkit-scrollbar-thumb {
   background: #5452f6;
   border-radius: 10px;
 }

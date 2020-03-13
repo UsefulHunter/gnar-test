@@ -5,8 +5,9 @@
     rgba(255, 255, 255, 0) 1045.02%
   );
   border-radius: 5px;
-  margin-left: 25px;
   text-align: start;
+  width: 658px;
+  margin-left: 12.5px;
 }
 
 .formFields__title {
@@ -59,7 +60,7 @@
 }
 
 .formFields__section-form-file:before {
-  content: "+";
+  content: '+';
   display: flex;
   justify-content: center;
   align-items: center;
