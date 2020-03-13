@@ -72,6 +72,7 @@ td {
 
 .list__img {
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .list__text {

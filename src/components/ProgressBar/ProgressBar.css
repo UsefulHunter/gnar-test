@@ -3,11 +3,11 @@
   height: 20px;
   width: 350px;
   border-radius: 50px;
-  border: 1px solid #333;
+  background-color: #b4d9ff;
 }
 
 .filler {
-  background: #1da598;
+  background: #5d5bf5;
   height: 100%;
   border-radius: inherit;
   transition: widht 0.2s ease-in;

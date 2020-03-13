@@ -1,0 +1,7 @@
+.catPicture__image {
+  width: 547px;
+  height: 547px;
+  object-fit: cover;
+  object-position: 20% 0px;
+  border-radius: 5px;
+}

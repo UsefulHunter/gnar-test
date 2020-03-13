@@ -1,0 +1,8 @@
+.catAbout__container {
+  background-image: linear-gradient(
+    12.67deg,
+    #fafaff 12.05%,
+    rgba(255, 255, 255, 0) 1045.02%
+  );
+  border-radius: 5px;
+}
