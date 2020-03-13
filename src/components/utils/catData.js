@@ -1,5 +1,5 @@
 const catData = {
-  name: "CAIU NA VILA O CATZILLA",
+  name: "CATZILLA",
   breed: "Abyssinian",
   origin: "Egypt",
   temperament: ["Active", "Energetic"],

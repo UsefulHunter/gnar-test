@@ -6,3 +6,57 @@
   );
   border-radius: 5px;
 }
+.catAbout__title,
+.catAbout__main {
+  margin-left: 50px;
+  margin-right: 95px;
+}
+.catAbout__title,
+.catAbout__about {
+  text-align: start;
+}
+
+.catAbout__characteristics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.catAbout__ownership {
+  display: flex;
+}
+
+.catAbout__block {
+  display: block;
+  width: 210px;
+  height: 100px;
+}
+
+.catAbout__medical {
+  text-decoration: underline;
+}
+
+.catAbout__bio {
+  width: 419px;
+  height: 112px;
+  font-weight: 13px;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.catAbout__cat {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.catAbout__personality {
+  display: block;
+  text-align: start;
+}
+
+.catAbout__activities {
+  display: block;
+  text-align: start;
+}

@@ -1,0 +1,36 @@
+.catCarousel__main {
+  text-align: start;
+}
+
+.catCarousel__title {
+  color: white;
+}
+
+.catCarousel__container {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  border-collapse: collapse;
+  border: none;
+}
+
+.catCarousel__container::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.catCarousel__container::-webkit-scrollbar-track {
+  display: none;
+}
+
+.catCarousel__container::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.catCarousel__item {
+  width: 208px;
+  height: 208px;
+  border-radius: 5px;
+  overflow-x: scroll;
+  margin-right: 25px;
+  cursor: pointer;
+}

@@ -10,7 +10,7 @@ const CatAbout = () => {
       <header className="catAbout__title">
         <h1>{catData.name}</h1>
       </header>
-      <main>
+      <main className="catAbout__main">
         <div className="catAbout__about">
           <h3>About</h3>
           <section className="catAbout__characteristics">
@@ -28,18 +28,19 @@ const CatAbout = () => {
             </span>
           </section>
           <section className="catAbout__ownership">
-            <p>
+            <p className="catAbout__block">
               <strong>Location:</strong>
+              <p>{catData.location}</p>
+              <strong className="catAbout__medical">View medical record</strong>
             </p>
-            <p>{catData.location}</p>
-            <span>View medical record</span>
-            <p>
+
+            <p className="catAbout__bio">
               <strong>Bio:</strong>
               {catData.bio}
             </p>
           </section>
         </div>
-        <div>
+        <div className="catAbout__cat">
           <section className="catAbout__personality">
             <h3>Personality</h3>
             <label>Curious</label>
@@ -49,7 +50,7 @@ const CatAbout = () => {
             <label>Energetic</label>
             <ProgressBar percentage={65} />
           </section>
-          <section className="catAbout__Activities">
+          <section className="catAbout__activities">
             <h3>Average Day</h3>
             <PieChart />
           </section>
