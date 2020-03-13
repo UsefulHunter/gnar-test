@@ -60,3 +60,7 @@
   display: block;
   text-align: start;
 }
+
+rect {
+  fill: none;
+}

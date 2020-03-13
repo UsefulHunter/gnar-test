@@ -38,8 +38,8 @@ const PieChart = () => {
       ]}
       options={pieOptions}
       graph_id="PieChart"
-      width={"150px"}
-      height={"150px"}
+      width={"175px"}
+      height={"175px"}
     />
   );
 };
