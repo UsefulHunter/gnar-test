@@ -1,16 +1,32 @@
 .posterImage__main {
-  background-image: url("https://i0.wp.com/gatomainecoon.com.br/wp-content/uploads/2020/03/curiosidades-sobre-gatos-the-lucky-neko-2JcixB1Ky3I-unsplash.jpg?fit=1200%2C675&ssl=1");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 658px;
-  height: 731px;
-  flex: 2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  max-width: 658px;
+  max-height: 731px;
+  overflow: hidden;
 }
 
 .posterImage__title {
   font-family: Bennet Display;
   font-weight: bold;
+  text-align: start;
   font-size: 78px;
   text-align: left;
   color: #f3f3ff;
+  z-index: 100;
+}
+
+.posterImage_purple-filter {
+  background: rgba(3, 0, 250, 0.4);
+  position: absolute;
+  width: 658px;
+  height: 731px;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.posterImage__image {
+  z-index: 3;
+  position: absolute;
 }
