@@ -1,27 +1,27 @@
-import React from "react";
+import React from 'react';
 
-import Chart from "react-google-charts";
+import Chart from 'react-google-charts';
 
 const pieOptions = {
   slices: [
     {
-      color: "#B4D9FF"
+      color: '#B4D9FF'
     },
     {
-      color: "#3876F3"
+      color: '#3876F3'
     },
     {
-      color: "#00A3FF"
+      color: '#00A3FF'
     },
     {
-      color: "#5452F6"
+      color: '#5452F6'
     }
   ],
   chartArea: {
     left: 0,
     top: 0,
-    width: "100%",
-    height: "80%"
+    width: '100%',
+    height: '80%'
   }
 };
 
@@ -30,16 +30,16 @@ const PieChart = () => {
     <Chart
       chartType="PieChart"
       data={[
-        ["Activities", "Percentage"],
-        ["Meowing", 25],
-        ["Hunting", 7],
-        ["Sleeping", 55],
-        ["Eating", 13]
+        ['Activities', 'Percentage'],
+        ['Meowing', 25],
+        ['Hunting', 7],
+        ['Sleeping', 55],
+        ['Eating', 13]
       ]}
       options={pieOptions}
       graph_id="PieChart"
-      width={"175px"}
-      height={"175px"}
+      width={'200px'}
+      height={'200px'}
     />
   );
 };
