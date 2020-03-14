@@ -1,8 +1,11 @@
 .home__content {
   display: flex;
+  align-items: flex-end;
 }
 
-.home__feed {
-  margin-top: -16px;
-  margin-right: 25px;
+@media only screen and (max-width: 600px) {
+  .home__content {
+    display: block;
+    text-align: -webkit-center;
+  }
 }

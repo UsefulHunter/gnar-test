@@ -7,7 +7,7 @@ import List from '../../components/List/List';
 const Home = () => {
   return (
     <div className="home__content">
-      <div className="home__feed">
+      <div>
         <Feed />
       </div>
       <div>

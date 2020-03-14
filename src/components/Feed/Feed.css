@@ -6,9 +6,9 @@
   );
   text-align: start;
   font-size: 20px;
-  width: 316px;
   height: 731px;
   border-radius: 5px;
+  margin-right: 5%;
 }
 
 .feed__title {
@@ -53,4 +53,24 @@
 
 .feed__hr {
   border: 0.5px solid #d0dae8;
+}
+
+@media only screen and (max-width: 600px) {
+  .feed__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: scroll;
+    width: 95vw;
+    height: 45%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+
+  .feed__list {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    border-collapse: collapse;
+  }
 }

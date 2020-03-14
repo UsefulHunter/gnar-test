@@ -1,16 +1,18 @@
-import React from "react";
-import { useHistory } from "react-router-dom";
-import "./Header.css";
+import React from 'react';
+import { useHistory } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
   let history = useHistory();
 
-  const handleClick = () => history.push("/Form");
+  const handleClickForm = () => history.push('/Form');
+  const handleClickMain = () => history.push('/');
 
   return (
     <header className="header__header">
-      <a className="header__a" href="/">
+      <div className="header__svg-container">
         <svg
+          onClick={handleClickMain}
           className="header__svg"
           width="282"
           height="44"
@@ -29,7 +31,7 @@ const Header = () => {
             fill="white"
           />
         </svg>
-      </a>
+      </div>
       <section className="header__options">
         <i className="material-icons header__icon-search">search</i>
         <input
@@ -38,7 +40,7 @@ const Header = () => {
           name="search"
           placeholder="Search Cats"
         />
-        <button className="header__interactable" onClick={handleClick}>
+        <button className="header__interactable" onClick={handleClickForm}>
           <i className="material-icons header__icon">add_circle_outline</i>
           <span>ADD NEW CAT</span>
         </button>
