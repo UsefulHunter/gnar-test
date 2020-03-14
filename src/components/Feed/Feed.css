@@ -73,4 +73,12 @@
     overflow: scroll;
     border-collapse: collapse;
   }
+
+  .feed__item {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: none;
+    width: 10%;
+    height: 5%;
+  }
 }
